@@ -22,13 +22,6 @@ exclude:
 - alembic-jekyll-theme.gemspec
 - .jekyll-cache
 
-# 2. Installed Gems
-plugins:
-- jekyll-seo-tag
-- jekyll-commonmark
-- jekyll-include-cache
-- jemoji
-
 # 3. Gem settings
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
