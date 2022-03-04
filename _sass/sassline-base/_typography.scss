@@ -269,7 +269,7 @@ a {
   blockquote {
 
     p {
-      border-left: 0.15rem solid $linkColour;
+      border-left: 0.15rem solid $accentColour;
       font-style: map-get($bodytype, italic);
       padding-left: 1rem;
 
@@ -362,5 +362,9 @@ a {
 }
 
 .feature { 
+  color: white !important;
+}
+
+.feature-text > * {
   color: white !important;
 }
