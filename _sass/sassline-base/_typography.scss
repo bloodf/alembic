@@ -33,7 +33,6 @@ a {
 
 // Styles for typeset text.
 .typeset {
-  color: $accentColour;
   // Nice underlines for text links.
   p a, li a {
     background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$linkColour 50%);
@@ -360,4 +359,8 @@ a {
   .oldstyle-numerals {
     font-feature-settings: 'onum', 'kern';
   }
+}
+
+.feature { 
+  color: white !important;
 }
